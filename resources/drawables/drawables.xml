@@ -1,4 +1,4 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
-    <bitmap id="CoffeeLogo" filename="coffee_logo.png" />
+    <bitmap id="CoffeeLogo" filename="better_coffee_logo.png" />
 </drawables>

@@ -8,7 +8,7 @@ class CoffeeDictionaryDelegate extends WatchUi.BehaviorDelegate {
     }
 
     function onSelect() as Boolean {
-        var menu = new WatchUi.Menu2({:title => "Coffee Types"});
+        var menu = new WatchUi.Menu2({:title => "Coffee Drinks"});
         var delegate;
 
         // Coffee-based drinks in alphabetical order

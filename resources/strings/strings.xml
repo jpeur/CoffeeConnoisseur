@@ -1,5 +1,5 @@
 <strings>
     <string id="AppName">CoffeeDictionary</string>
 
-    <string id="prompt">Click Start</string>
+    <string id="prompt">Welcome to CoffeeDictionary!\nClick Start</string>
 </strings>
