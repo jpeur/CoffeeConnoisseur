@@ -31,7 +31,7 @@ class definition_Menu2Delegate extends WatchUi.Menu2InputDelegate {
         };
 
         var definition = definition_dict[item.getId()];
-        System.println(definition);
+        // System.println(definition);
 
         var view = new drink_view(definition);
         var delegate = new drink_delegate();
