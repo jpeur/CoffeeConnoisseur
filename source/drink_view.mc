@@ -33,7 +33,7 @@ class drink_view extends WatchUi.View {
             :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
             :locY=>WatchUi.LAYOUT_HALIGN_CENTER,
             :width=>width * 0.8,
-            :height=>height * 0.4,
+            :height=>height * 0.5,
             :justification=>Graphics.TEXT_JUSTIFY_CENTER
         });
     }

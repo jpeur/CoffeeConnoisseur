@@ -9,25 +9,25 @@ class definition_Menu2Delegate extends WatchUi.Menu2InputDelegate {
 
     function onSelect(item as WatchUi.MenuItem) {
         var definition_dict = {
-            "affo" => "Affogato: Vanilla ice cream with a shot of hot espresso.",
-            "amer" => "Americano: Espresso with hot water added on top.",
-            "blac" => "Black Eye: Drip coffee with two shots of espresso.",
-            "brev" => "Breve: Espresso with steamed half-and-half.",
-            "cafe" => "Café au Lait: Brewed coffee with steamed milk.",
-            "capp" => "Cappuccino: Espresso with steamed milk and foam.",
-            "cold" => "Cold Brew: Coffee brewed cold and served chilled.",
-            "cort" => "Cortado: Espresso with equal parts steamed milk.",
-            "dopp" => "Doppio: Double shot of espresso.",
-            "espr" => "Espresso: Concentrated coffee shot.",
-            "flat" => "Flat White: Espresso with steamed milk microfoam.",
-            "iced" => "Iced Coffee: Coffee brewed hot and served over ice.",
-            "latt" => "Latte: Espresso with steamed milk and light foam.",
-            "long" => "Long Black: Espresso poured over hot water.",
-            "mach" => "Macchiato: Espresso with a small amount of foam.",
-            "moch" => "Mocha: Espresso with steamed milk and chocolate.",
-            "nitr" => "Nitro Cold Brew: Cold brew infused with nitrogen.",
-            "rede" => "Red Eye: Brewed coffee with a shot of espresso.",
-            "rist" => "Ristretto: Short, concentrated espresso shot."
+            "affo" => "Affogato: Vanilla ice cream with a shot of hot espresso poured over.",
+            "amer" => "Americano: Smooth espresso mixed with hot water, like a milder black coffee.",
+            "blac" => "Black Eye: Brewed coffee with two shots of espresso for extra strength.",
+            "brev" => "Breve: Espresso combined with steamed half-and-half for a richer taste.",
+            "cafe" => "Café au Lait: Coffee mixed with steamed milk, simple and mild.",
+            "capp" => "Cappuccino: Espresso topped with steamed milk and a layer of foam.",
+            "cold" => "Cold Brew: Coffee brewed slowly with cold water, served chilled.",
+            "cort" => "Cortado: Equal parts espresso and steamed milk for a balanced taste.",
+            "dopp" => "Doppio: A double shot of espresso, strong and concentrated.",
+            "espr" => "Espresso: A small, concentrated shot of coffee with bold flavor.",
+            "flat" => "Flat White: Espresso with smooth microfoam milk for a creamy texture.",
+            "iced" => "Iced Coffee: Brewed coffee poured over ice for a refreshing cold drink.",
+            "latt" => "Latte: Espresso with steamed milk and a light layer of foam on top.",
+            "long" => "Long Black: Espresso poured over hot water, keeping crema and boldness.",
+            "mach" => "Macchiato: Espresso with just a touch of foam, giving a slight creaminess.",
+            "moch" => "Mocha: Espresso blended with steamed milk and chocolate for sweetness.",
+            "nitr" => "Nitro Cold Brew: Cold brew infused with nitrogen, creating a creamy texture.",
+            "rede" => "Red Eye: Brewed coffee with a shot of espresso for extra kick.",
+            "rist" => "Ristretto: A shorter, highly concentrated espresso shot."
         };
 
         var definition = definition_dict[item.getId()];
