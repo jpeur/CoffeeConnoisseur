@@ -9,24 +9,24 @@ class definition_Menu2Delegate extends WatchUi.Menu2InputDelegate {
 
     function onSelect(item as WatchUi.MenuItem) {
         var definition_dict = {
-            "affo" => "Affogato: Ice cream with a shot of hot espresso.",
-            "amer" => "Americano: Espresso diluted with hot water.",
-            "blac" => "Black Eye: Coffee with two shots of espresso.",
+            "affo" => "Affogato: Vanilla ice cream with a shot of hot espresso.",
+            "amer" => "Americano: Espresso with hot water added on top.",
+            "blac" => "Black Eye: Drip coffee with two shots of espresso.",
             "brev" => "Breve: Espresso with steamed half-and-half.",
-            "cafe" => "Café au Lait: Coffee with steamed milk.",
-            "capp" => "Cappuccino: Espresso with steamed milk foam.",
-            "cold" => "Cold Brew: Coffee brewed cold, served chilled.",
-            "cort" => "Cortado: Espresso with equal steamed milk.",
+            "cafe" => "Café au Lait: Brewed coffee with steamed milk.",
+            "capp" => "Cappuccino: Espresso with steamed milk and foam.",
+            "cold" => "Cold Brew: Coffee brewed cold and served chilled.",
+            "cort" => "Cortado: Espresso with equal parts steamed milk.",
             "dopp" => "Doppio: Double shot of espresso.",
-            "espr" => "Espresso: Strong, concentrated coffee shot.",
-            "flat" => "Flat White: Espresso with microfoam milk.",
-            "iced" => "Iced Coffee: Brewed coffee served over ice.",
+            "espr" => "Espresso: Concentrated coffee shot.",
+            "flat" => "Flat White: Espresso with steamed milk microfoam.",
+            "iced" => "Iced Coffee: Coffee brewed hot and served over ice.",
             "latt" => "Latte: Espresso with steamed milk and light foam.",
             "long" => "Long Black: Espresso poured over hot water.",
-            "mach" => "Macchiato: Espresso with a small foam topping.",
+            "mach" => "Macchiato: Espresso with a small amount of foam.",
             "moch" => "Mocha: Espresso with steamed milk and chocolate.",
-            "nitr" => "Nitro Cold Brew: Cold brew with nitrogen for a creamy texture.",
-            "rede" => "Red Eye: Coffee with a shot of espresso.",
+            "nitr" => "Nitro Cold Brew: Cold brew infused with nitrogen.",
+            "rede" => "Red Eye: Brewed coffee with a shot of espresso.",
             "rist" => "Ristretto: Short, concentrated espresso shot."
         };
 
