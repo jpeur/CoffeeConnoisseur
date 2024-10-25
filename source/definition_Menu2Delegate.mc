@@ -10,7 +10,7 @@ class definition_Menu2Delegate extends WatchUi.Menu2InputDelegate {
     function onSelect(item as WatchUi.MenuItem) {
         var definition_dict = {
             "affo" => "Affogato: Vanilla ice cream with a shot of hot espresso poured over.",
-            "amer" => "Americano: Smooth espresso mixed with hot water, like a milder black coffee.",
+            "amer" => "Americano: Smooth espresso with hot water added on top, like a milder black coffee.",
             "blac" => "Black Eye: Brewed coffee with two shots of espresso for extra strength.",
             "brev" => "Breve: Espresso combined with steamed half-and-half for a richer taste.",
             "cafe" => "Café au Lait: Coffee mixed with steamed milk, simple and mild.",

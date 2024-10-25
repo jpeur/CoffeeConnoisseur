@@ -31,9 +31,9 @@ class drink_view extends WatchUi.View {
             :color=>Graphics.COLOR_WHITE,
             :font=>[Graphics.FONT_SYSTEM_SMALL, Graphics.FONT_SYSTEM_TINY, Graphics.FONT_SYSTEM_XTINY],
             :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
-            :locY=>WatchUi.LAYOUT_HALIGN_CENTER,
+            :locY=>height * 0.2,
             :width=>width * 0.8,
-            :height=>height * 0.5,
+            :height=>height * 0.8,
             :justification=>Graphics.TEXT_JUSTIFY_CENTER
         });
     }
