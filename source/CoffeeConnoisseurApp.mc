@@ -23,6 +23,6 @@ class CoffeeConnoisseurApp extends Application.AppBase {
 
 }
 
-function getApp() as CoffeeConnoisseurpp {
+function getApp() as CoffeeConnoisseurApp {
     return Application.getApp() as CoffeeConnoisseurApp;
 }
