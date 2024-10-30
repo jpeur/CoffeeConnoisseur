@@ -2,7 +2,7 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class CoffeeDictionaryApp extends Application.AppBase {
+class CoffeeConnoisseurApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -18,11 +18,11 @@ class CoffeeDictionaryApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new CoffeeDictionaryView(), new CoffeeDictionaryDelegate() ];
+        return [ new CoffeeConnoisseurView(), new CoffeeConnoisseurDelegate() ];
     }
 
 }
 
-function getApp() as CoffeeDictionaryApp {
-    return Application.getApp() as CoffeeDictionaryApp;
+function getApp() as CoffeeConnoisseurpp {
+    return Application.getApp() as CoffeeConnoisseurApp;
 }
