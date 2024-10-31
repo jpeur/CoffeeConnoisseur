@@ -39,7 +39,7 @@ class definition_Menu2Delegate extends WatchUi.Menu2InputDelegate {
             "maza" => "Mazagran: Espresso with lemon and sugar, sometimes with rum.",
             "mexi" => "Mexican Coffee: Coffee with dark sugar and cinnamon.",
             "flatc" => "Flat Cold White: Cold version of flat white with ice and microfoam.",
-            "drip" => "Drip Coffee: Coffee brewed with hot water over coffee grounds."
+            "drip" => "Drip Coffee: Coffee brewed with hot water over grounds, simple and classic."
     };
 
         var definition = definition_dict[item.getId()];
