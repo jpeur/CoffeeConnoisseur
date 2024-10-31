@@ -130,6 +130,15 @@ class CoffeeConnoisseurView extends WatchUi.View {
 
         menu.addItem(
             new MenuItem(
+                "Iced Latte",
+                "",
+                "icedl",
+                {}
+            )
+        );
+
+        menu.addItem(
+            new MenuItem(
                 "Latte",
                 "",
                 "latt",
@@ -192,7 +201,7 @@ class CoffeeConnoisseurView extends WatchUi.View {
         );
 
         delegate = new definition_Menu2Delegate();
-        WatchUi.pushView(menu, delegate, WatchUi.SLIDE_UP);
+        WatchUi.pushView(menu, delegate, WatchUi.SLIDE_IMMEDIATE);
         // return true;
     }
 

@@ -21,6 +21,7 @@ class definition_Menu2Delegate extends WatchUi.Menu2InputDelegate {
             "espr" => "Espresso: A small, concentrated shot of coffee with bold flavor.",
             "flat" => "Flat White: Espresso with smooth microfoam milk for a creamy texture.",
             "iced" => "Iced Coffee: Brewed coffee poured over ice for a refreshing cold drink.",
+            "icedl" => "Iced Latte: Espresso poured over ice and combined with chilled milk." ,
             "latt" => "Latte: Espresso with steamed milk and a light layer of foam on top.",
             "long" => "Long Black: Espresso poured over hot water, keeping crema and boldness.",
             "mach" => "Macchiato: Espresso with just a touch of foam, giving a slight creaminess.",
@@ -36,7 +37,7 @@ class definition_Menu2Delegate extends WatchUi.Menu2InputDelegate {
         var view = new drink_view(definition);
         var delegate = new drink_delegate();
 
-        WatchUi.pushView(view, delegate, WatchUi.SLIDE_UP);
+        WatchUi.pushView(view, delegate, WatchUi.SLIDE_LEFT);
     }
 
     function onBack() as Void {
