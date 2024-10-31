@@ -28,8 +28,19 @@ class definition_Menu2Delegate extends WatchUi.Menu2InputDelegate {
             "moch" => "Mocha: Espresso blended with steamed milk and chocolate for sweetness.",
             "nitr" => "Nitro Cold Brew: Cold brew infused with nitrogen, creating a creamy texture.",
             "rede" => "Red Eye: Brewed coffee with a shot of espresso for extra kick.",
-            "rist" => "Ristretto: A shorter, highly concentrated espresso shot."
-        };
+            "rist" => "Ristretto: A shorter, highly concentrated espresso shot.",
+            "lung" => "Lungo: A 'long' espresso with more water, giving a smoky taste.",
+            "gala" => "Galão: A Portuguese coffee similar to latte but with more milk foam.",
+            "cons" => "Con Panna: Espresso topped with whipped cream for a sweet finish.",
+            "iris" => "Irish Coffee: Coffee mixed with whiskey, sugar, and cream.",
+            "turk" => "Turkish Coffee: Unfiltered coffee brewed in a cezve, rich and strong.",
+            "bree" => "Café Breve: Espresso with steamed half-and-half, creamy and rich.",
+            "bull" => "Bulletproof Coffee: Brewed coffee blended with butter and oil.",
+            "maza" => "Mazagran: Espresso with lemon and sugar, sometimes with rum.",
+            "mexi" => "Mexican Coffee: Coffee with dark sugar and cinnamon.",
+            "flatc" => "Flat Cold White: Cold version of flat white with ice and microfoam.",
+            "drip" => "Drip Coffee: Coffee brewed with hot water over coffee grounds."
+    };
 
         var definition = definition_dict[item.getId()];
         // System.println(definition);
