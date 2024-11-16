@@ -34,7 +34,6 @@ class definition_Menu2Delegate extends WatchUi.Menu2InputDelegate {
             "cons" => "Con Panna: Espresso topped with whipped cream for a sweet finish.",
             "iris" => "Irish Coffee: Coffee mixed with whiskey, sugar, and cream.",
             "turk" => "Turkish Coffee: Unfiltered coffee brewed in a cezve, rich and strong.",
-            "bree" => "Café Breve: Espresso with steamed half-and-half, creamy and rich.",
             "bull" => "Bulletproof Coffee: Brewed coffee blended with butter and oil.",
             "maza" => "Mazagran: Espresso with lemon and sugar, sometimes with rum.",
             "mexi" => "Mexican Coffee: Coffee with dark sugar and cinnamon.",

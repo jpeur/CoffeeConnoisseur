@@ -25,7 +25,6 @@ class CoffeeConnoisseurView extends WatchUi.View {
         menu.addItem(new MenuItem("Breve", "", "brev", {}));
         menu.addItem(new MenuItem("Bulletproof", "", "bull", {}));
         menu.addItem(new MenuItem("Café au Lait", "", "cafe", {}));
-        menu.addItem(new MenuItem("Caffe Breve", "", "bree", {}));
         menu.addItem(new MenuItem("Cappuccino", "", "capp", {}));
         menu.addItem(new MenuItem("Cold Brew", "", "cold", {}));
         menu.addItem(new MenuItem("Con Panna", "", "cons", {}));
